@@ -3,7 +3,7 @@ package apis
 import (
 	"net/http"
 
-	"github.com/202lp2/go2/models"
+	"github.com/PllGrd69/gotwo/models"
 	"github.com/gin-gonic/gin"
 )
 

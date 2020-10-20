@@ -1,8 +1,6 @@
 package models
 
-
 type Item struct {
-
-	Title        string    `json:"title"`
-	Notes        string    `json:"notes"`
+	Title string `json:"title"`
+	Notes string `json:"notes"`
 }

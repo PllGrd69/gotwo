@@ -22,6 +22,10 @@ func SetupRouter() *gin.Engine {
 	{
 		v1.GET("/ping", apis.ItemsIndex)
 		v1.GET("/persons", apis.PersonsIndex)
+		v1.GET("/persons/:id", apis.PersonsIndexID)
+		v1.POST("/persons", apis.CreartePerson)
+		v1.PUT("/persons/:id", apis.UpedatePerson)
+		v1.DELETE("/persons/:id", apis.DeletePerson)
 	}
 
 	return r
