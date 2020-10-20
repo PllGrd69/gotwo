@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"github.com/202lp2/go2/apis"
+	"github.com/PllGrd69/gotwo/apis"
 	"github.com/gin-gonic/gin"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
